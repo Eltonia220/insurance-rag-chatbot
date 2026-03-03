@@ -4,7 +4,7 @@ from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_community.vectorstores import Chroma
 from langchain_community.embeddings import HuggingFaceEmbeddings
 
-client = genai.Client(api_key="AIzaSyCu8tKeeY1gwvHl1AHSLR-skS8848wNpUQ")
+client = genai.Client(api_key="YOUR_GEMINI_API_KEY_HERE")
 
 loader = PyPDFLoader("insurance_policy.pdf")
 docs = loader.load()
